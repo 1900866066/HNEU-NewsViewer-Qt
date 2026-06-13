@@ -57,10 +57,17 @@ while cnt<n:
     news=[]
     new_news=html2.xpath("//*[@id='vsb_content_2']/div/div/p[1]/text()")
     temp=1
-    while new_news:
+    while temp<=15:
         news+=new_news
         temp+=1
         new_news=html2.xpath(f"//*[@id='vsb_content_2']/div/div/p[{temp}]/text()")
+    if news==[]:
+        temp=1
+        new_news=html2.xpath("//*[@class='v_news_content']/p[1]/text()")
+        while temp<=15:
+            news+=new_news
+            temp+=1
+            new_news=html2.xpath(f"//*[@class='v_news_content']/p[{temp}]/text()")
     print(f"解析到第{cnt}篇新闻内容：{news}")
     #下一篇url
     next_url=html2.xpath("//div[@class='page_box']/p[2]/a/@href")[0]
