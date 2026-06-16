@@ -271,6 +271,30 @@ mywidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HNEU-Viewer.dir\build.make CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.s
 .PHONY : mywidget.cpp.s
 
+spiderworker.obj: spiderworker.cpp.obj
+.PHONY : spiderworker.obj
+
+# target to build an object file
+spiderworker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HNEU-Viewer.dir\build.make CMakeFiles/HNEU-Viewer.dir/spiderworker.cpp.obj
+.PHONY : spiderworker.cpp.obj
+
+spiderworker.i: spiderworker.cpp.i
+.PHONY : spiderworker.i
+
+# target to preprocess a source file
+spiderworker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HNEU-Viewer.dir\build.make CMakeFiles/HNEU-Viewer.dir/spiderworker.cpp.i
+.PHONY : spiderworker.cpp.i
+
+spiderworker.s: spiderworker.cpp.s
+.PHONY : spiderworker.s
+
+# target to generate assembly for a file
+spiderworker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HNEU-Viewer.dir\build.make CMakeFiles/HNEU-Viewer.dir/spiderworker.cpp.s
+.PHONY : spiderworker.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -295,6 +319,9 @@ help:
 	@echo ... mywidget.obj
 	@echo ... mywidget.i
 	@echo ... mywidget.s
+	@echo ... spiderworker.obj
+	@echo ... spiderworker.i
+	@echo ... spiderworker.s
 .PHONY : help
 
 

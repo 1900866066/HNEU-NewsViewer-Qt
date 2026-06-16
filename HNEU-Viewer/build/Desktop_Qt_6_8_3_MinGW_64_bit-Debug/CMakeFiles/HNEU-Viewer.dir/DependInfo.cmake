@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/HNEU-Viewer_autogen/mocs_compilation.cpp" "CMakeFiles/HNEU-Viewer.dir/HNEU-Viewer_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/HNEU-Viewer.dir/HNEU-Viewer_autogen/mocs_compilation.cpp.obj.d"
   "D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/main.cpp" "CMakeFiles/HNEU-Viewer.dir/main.cpp.obj" "gcc" "CMakeFiles/HNEU-Viewer.dir/main.cpp.obj.d"
   "D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/mywidget.cpp" "CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj" "gcc" "CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj.d"
+  "D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/spiderworker.cpp" "CMakeFiles/HNEU-Viewer.dir/spiderworker.cpp.obj" "gcc" "CMakeFiles/HNEU-Viewer.dir/spiderworker.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

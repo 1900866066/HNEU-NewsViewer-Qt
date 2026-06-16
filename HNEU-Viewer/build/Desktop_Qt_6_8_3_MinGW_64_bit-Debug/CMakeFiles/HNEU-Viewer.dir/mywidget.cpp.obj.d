@@ -371,6 +371,37 @@ CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qbitmap.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QList \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QMap \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qmap.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextEdit \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QProcess \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qprocess.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
  D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/HNEU-Viewer_autogen/include/ui_mywidget.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/QVariant \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qvariant.h \
@@ -378,8 +409,6 @@ CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
- D:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qeventloop.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
@@ -389,7 +418,6 @@ CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QFrame \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
- D:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QHBoxLayout \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qlayout.h \
@@ -399,8 +427,6 @@ CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QHeaderView \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qheaderview.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- D:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qabstractitemmodel.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qitemselectionmodel.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -417,15 +443,8 @@ CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
- D:/Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
- D:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
- D:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
- D:/Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -435,4 +454,69 @@ CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtablewidget.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtableview.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
- D:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
+ D:\Mycode\Python\HNEU-NewsViewer-Qt\HNEU-Viewer\spiderworker.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QString \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QHeaderView \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QPushButton \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QLabel \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QFile \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qfile.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QTextStream \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QDebug \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdebug.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QFileInfo \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qfileinfo.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qfile.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qtimezone.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QDirIterator \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdiriterator.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdir.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdirlisting.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qfileinfo.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QTableWidgetItem \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/QPixmap \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qpixmap.h

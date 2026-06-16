@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/HNEU-Viewer.dir/main.cpp.obj.d"
   "CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj"
   "CMakeFiles/HNEU-Viewer.dir/mywidget.cpp.obj.d"
+  "CMakeFiles/HNEU-Viewer.dir/spiderworker.cpp.obj"
+  "CMakeFiles/HNEU-Viewer.dir/spiderworker.cpp.obj.d"
   "CMakeFiles/HNEU-Viewer_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/HNEU-Viewer_autogen.dir/ParseCache.txt"
   "HNEU-Viewer_autogen"

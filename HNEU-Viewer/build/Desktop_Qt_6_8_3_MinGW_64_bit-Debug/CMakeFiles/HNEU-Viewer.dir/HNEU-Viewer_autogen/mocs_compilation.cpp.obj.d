@@ -372,4 +372,42 @@ CMakeFiles/HNEU-Viewer.dir/HNEU-Viewer_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qbitmap.h \
- D:/Qt/6.8.3/mingw_64/include/QtCore/qtmochelpers.h
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QList \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QMap \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qmap.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextEdit \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QProcess \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qprocess.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QList \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\Mycode\Python\HNEU-NewsViewer-Qt\HNEU-Viewer\build\Desktop_Qt_6_8_3_MinGW_64_bit-Debug\HNEU-Viewer_autogen\EWIEGA46WW/moc_spiderworker.cpp \
+ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/spiderworker.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QString \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qstring.h

@@ -71,6 +71,10 @@ public:
 
         label_2 = new QLabel(frame_3);
         label_2->setObjectName("label_2");
+        QFont font;
+        font.setPointSize(14);
+        font.setBold(true);
+        label_2->setFont(font);
 
         horizontalLayout_2->addWidget(label_2);
 
@@ -87,26 +91,37 @@ public:
         frame_2->setFrameShadow(QFrame::Shadow::Raised);
         horizontalLayout = new QHBoxLayout(frame_2);
         horizontalLayout->setObjectName("horizontalLayout");
-        horizontalSpacer = new QSpacerItem(209, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
 
         label_3 = new QLabel(frame_2);
         label_3->setObjectName("label_3");
+        QFont font1;
+        font1.setPointSize(11);
+        font1.setBold(true);
+        label_3->setFont(font1);
 
         horizontalLayout->addWidget(label_3);
 
         lineEdit = new QLineEdit(frame_2);
         lineEdit->setObjectName("lineEdit");
+        lineEdit->setMinimumSize(QSize(120, 35));
+        QFont font2;
+        font2.setPointSize(11);
+        lineEdit->setFont(font2);
+        lineEdit->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         horizontalLayout->addWidget(lineEdit);
 
         pushButton = new QPushButton(frame_2);
         pushButton->setObjectName("pushButton");
+        pushButton->setMinimumSize(QSize(150, 35));
+        pushButton->setFont(font1);
 
         horizontalLayout->addWidget(pushButton);
 
-        horizontalSpacer_2 = new QSpacerItem(209, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer_2);
 
@@ -122,30 +137,19 @@ public:
         tableWidget = new QTableWidget(frame);
         if (tableWidget->columnCount() < 3)
             tableWidget->setColumnCount(3);
-        QBrush brush(QColor(0, 0, 0, 255));
-        brush.setStyle(Qt::NoBrush);
-        QFont font;
-        font.setBold(true);
         QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
-        __qtablewidgetitem->setFont(font);
-        __qtablewidgetitem->setBackground(QColor(85, 255, 252));
-        __qtablewidgetitem->setForeground(brush);
+        __qtablewidgetitem->setFont(font1);
         tableWidget->setHorizontalHeaderItem(0, __qtablewidgetitem);
-        QBrush brush1(QColor(0, 0, 0, 255));
-        brush1.setStyle(Qt::NoBrush);
         QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
-        __qtablewidgetitem1->setFont(font);
-        __qtablewidgetitem1->setBackground(QColor(0, 255, 255));
-        __qtablewidgetitem1->setForeground(brush1);
+        __qtablewidgetitem1->setFont(font1);
         tableWidget->setHorizontalHeaderItem(1, __qtablewidgetitem1);
-        QBrush brush2(QColor(0, 0, 0, 255));
-        brush2.setStyle(Qt::NoBrush);
         QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
-        __qtablewidgetitem2->setFont(font);
-        __qtablewidgetitem2->setBackground(QColor(85, 255, 255));
-        __qtablewidgetitem2->setForeground(brush2);
+        __qtablewidgetitem2->setFont(font1);
         tableWidget->setHorizontalHeaderItem(2, __qtablewidgetitem2);
         tableWidget->setObjectName("tableWidget");
+        QFont font3;
+        font3.setPointSize(10);
+        tableWidget->setFont(font3);
         tableWidget->setFrameShape(QFrame::Shape::Box);
         tableWidget->setFrameShadow(QFrame::Shadow::Plain);
         tableWidget->setTabKeyNavigation(false);
@@ -155,6 +159,8 @@ public:
         tableWidget->setTextElideMode(Qt::TextElideMode::ElideRight);
         tableWidget->setVerticalScrollMode(QAbstractItemView::ScrollMode::ScrollPerItem);
         tableWidget->setHorizontalScrollMode(QAbstractItemView::ScrollMode::ScrollPerItem);
+        tableWidget->horizontalHeader()->setProperty("showSortIndicator", QVariant(false));
+        tableWidget->horizontalHeader()->setStretchLastSection(false);
 
         horizontalLayout_3->addWidget(tableWidget);
 
@@ -172,11 +178,12 @@ public:
 
     void retranslateUi(QWidget *MyWidget)
     {
-        MyWidget->setWindowTitle(QCoreApplication::translate("MyWidget", "MyWidget", nullptr));
+        MyWidget->setWindowTitle(QCoreApplication::translate("MyWidget", "\346\271\226\345\215\227\345\267\245\347\250\213\345\255\246\351\231\242\346\226\260\351\227\273\347\275\221\347\210\254\350\231\253", nullptr));
         label->setText(QCoreApplication::translate("MyWidget", "logo", nullptr));
         label_2->setText(QCoreApplication::translate("MyWidget", "\346\271\226\345\215\227\345\267\245\347\250\213\345\255\246\351\231\242\346\226\260\351\227\273\347\275\221\347\210\254\350\231\253", nullptr));
-        label_3->setText(QCoreApplication::translate("MyWidget", "\347\210\254\345\217\226\346\200\273\346\235\241\346\225\260n", nullptr));
-        pushButton->setText(QCoreApplication::translate("MyWidget", "\345\274\200\345\247\213\347\210\254\345\217\226", nullptr));
+        label_3->setText(QCoreApplication::translate("MyWidget", "\347\210\254\345\217\226\346\235\241\346\225\260\357\274\232", nullptr));
+        lineEdit->setPlaceholderText(QCoreApplication::translate("MyWidget", "\350\257\267\350\276\223\345\205\245\346\225\260\351\207\217(1-100)", nullptr));
+        pushButton->setText(QCoreApplication::translate("MyWidget", " \345\274\200\345\247\213\347\210\254\345\217\226", nullptr));
         QTableWidgetItem *___qtablewidgetitem = tableWidget->horizontalHeaderItem(0);
         ___qtablewidgetitem->setText(QCoreApplication::translate("MyWidget", "\345\272\217\345\217\267", nullptr));
         QTableWidgetItem *___qtablewidgetitem1 = tableWidget->horizontalHeaderItem(1);

@@ -371,12 +371,41 @@ CMakeFiles/HNEU-Viewer.dir/main.cpp.obj: \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/Qt/6.8.3/mingw_64/include/QtGui/qbitmap.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QList \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QMap \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qmap.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextEdit \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+ D:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/QProcess \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qprocess.h \
+ D:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QApplication \
  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
- D:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qeventloop.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
  D:/Qt/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \

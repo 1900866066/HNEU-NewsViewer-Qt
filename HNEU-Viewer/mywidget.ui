@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MyWidget</string>
+   <string>湖南工程学院新闻网爬虫</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -38,6 +38,12 @@
          </item>
          <item>
           <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
            <property name="text">
             <string>湖南工程学院新闻网爬虫</string>
            </property>
@@ -75,7 +81,7 @@
            </property>
            <property name="sizeHint" stdset="0">
             <size>
-             <width>209</width>
+             <width>40</width>
              <height>20</height>
             </size>
            </property>
@@ -83,18 +89,54 @@
          </item>
          <item>
           <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
            <property name="text">
-            <string>爬取总条数n</string>
+            <string>爬取条数：</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lineEdit"/>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>35</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+           <property name="placeholderText">
+            <string>请输入数量(1-100)</string>
+           </property>
+          </widget>
          </item>
          <item>
           <widget class="QPushButton" name="pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>35</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
            <property name="text">
-            <string>开始爬取</string>
+            <string> 开始爬取</string>
            </property>
           </widget>
          </item>
@@ -105,7 +147,7 @@
            </property>
            <property name="sizeHint" stdset="0">
             <size>
-             <width>209</width>
+             <width>40</width>
              <height>20</height>
             </size>
            </property>
@@ -125,6 +167,11 @@
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
           <widget class="QTableWidget" name="tableWidget">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
            <property name="frameShape">
             <enum>QFrame::Shape::Box</enum>
            </property>
@@ -152,30 +199,21 @@
            <property name="horizontalScrollMode">
             <enum>QAbstractItemView::ScrollMode::ScrollPerItem</enum>
            </property>
+           <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>false</bool>
+           </attribute>
            <column>
             <property name="text">
              <string>序号</string>
             </property>
             <property name="font">
              <font>
+              <pointsize>11</pointsize>
               <bold>true</bold>
              </font>
-            </property>
-            <property name="background">
-             <color>
-              <red>85</red>
-              <green>255</green>
-              <blue>252</blue>
-             </color>
-            </property>
-            <property name="foreground">
-             <brush brushstyle="NoBrush">
-              <color alpha="255">
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </brush>
             </property>
            </column>
            <column>
@@ -184,24 +222,9 @@
             </property>
             <property name="font">
              <font>
+              <pointsize>11</pointsize>
               <bold>true</bold>
              </font>
-            </property>
-            <property name="background">
-             <color>
-              <red>0</red>
-              <green>255</green>
-              <blue>255</blue>
-             </color>
-            </property>
-            <property name="foreground">
-             <brush brushstyle="NoBrush">
-              <color alpha="255">
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </brush>
             </property>
            </column>
            <column>
@@ -210,24 +233,9 @@
             </property>
             <property name="font">
              <font>
+              <pointsize>11</pointsize>
               <bold>true</bold>
              </font>
-            </property>
-            <property name="background">
-             <color>
-              <red>85</red>
-              <green>255</green>
-              <blue>255</blue>
-             </color>
-            </property>
-            <property name="foreground">
-             <brush brushstyle="NoBrush">
-              <color alpha="255">
-               <red>0</red>
-               <green>0</green>
-               <blue>0</blue>
-              </color>
-             </brush>
             </property>
            </column>
           </widget>

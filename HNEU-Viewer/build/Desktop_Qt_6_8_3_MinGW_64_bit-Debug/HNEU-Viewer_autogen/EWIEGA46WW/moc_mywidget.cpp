@@ -7,7 +7,9 @@
 *****************************************************************************/
 
 #include "../../../../mywidget.h"
+#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
+#include <QtCore/QList>
 
 #include <QtCore/qtmochelpers.h>
 
@@ -31,19 +33,19 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
-struct qt_meta_tag_ZN8MyWidgetE_t {};
+struct qt_meta_tag_ZN16NewsDetailDialogE_t {};
 } // unnamed namespace
 
 
 #ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN8MyWidgetE = QtMocHelpers::stringData(
-    "MyWidget"
+static constexpr auto qt_meta_stringdata_ZN16NewsDetailDialogE = QtMocHelpers::stringData(
+    "NewsDetailDialog"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
 
-Q_CONSTINIT static const uint qt_meta_data_ZN8MyWidgetE[] = {
+Q_CONSTINIT static const uint qt_meta_data_ZN16NewsDetailDialogE[] = {
 
  // content:
       12,       // revision
@@ -59,6 +61,103 @@ Q_CONSTINIT static const uint qt_meta_data_ZN8MyWidgetE[] = {
        0        // eod
 };
 
+Q_CONSTINIT const QMetaObject NewsDetailDialog::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
+    qt_meta_stringdata_ZN16NewsDetailDialogE.offsetsAndSizes,
+    qt_meta_data_ZN16NewsDetailDialogE,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_tag_ZN16NewsDetailDialogE_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<NewsDetailDialog, std::true_type>
+    >,
+    nullptr
+} };
+
+void NewsDetailDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    auto *_t = static_cast<NewsDetailDialog *>(_o);
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
+}
+
+const QMetaObject *NewsDetailDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *NewsDetailDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ZN16NewsDetailDialogE.stringdata0))
+        return static_cast<void*>(this);
+    return QDialog::qt_metacast(_clname);
+}
+
+int NewsDetailDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    return _id;
+}
+namespace {
+struct qt_meta_tag_ZN8MyWidgetE_t {};
+} // unnamed namespace
+
+
+#ifdef QT_MOC_HAS_STRINGDATA
+static constexpr auto qt_meta_stringdata_ZN8MyWidgetE = QtMocHelpers::stringData(
+    "MyWidget",
+    "onStartSpider",
+    "",
+    "onProgressUpdated",
+    "current",
+    "total",
+    "title",
+    "onSpiderFinished",
+    "QList<QMap<QString,QString>>",
+    "newsList",
+    "onErrorOccurred",
+    "errorMsg",
+    "onTableDoubleClicked",
+    "row",
+    "column"
+);
+#else  // !QT_MOC_HAS_STRINGDATA
+#error "qtmochelpers.h not found or too old."
+#endif // !QT_MOC_HAS_STRINGDATA
+
+Q_CONSTINIT static const uint qt_meta_data_ZN8MyWidgetE[] = {
+
+ // content:
+      12,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   44,    2, 0x08,    1 /* Private */,
+       3,    3,   45,    2, 0x08,    2 /* Private */,
+       7,    1,   52,    2, 0x08,    6 /* Private */,
+      10,    1,   55,    2, 0x08,    8 /* Private */,
+      12,    2,   58,    2, 0x08,   10 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::QString,    4,    5,    6,
+    QMetaType::Void, 0x80000000 | 8,    9,
+    QMetaType::Void, QMetaType::QString,   11,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,   13,   14,
+
+       0        // eod
+};
+
 Q_CONSTINIT const QMetaObject MyWidget::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
     qt_meta_stringdata_ZN8MyWidgetE.offsetsAndSizes,
@@ -67,7 +166,24 @@ Q_CONSTINIT const QMetaObject MyWidget::staticMetaObject = { {
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN8MyWidgetE_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<MyWidget, std::true_type>
+        QtPrivate::TypeAndForceComplete<MyWidget, std::true_type>,
+        // method 'onStartSpider'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'onProgressUpdated'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'onSpiderFinished'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QList<QMap<QString,QString>> &, std::false_type>,
+        // method 'onErrorOccurred'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'onTableDoubleClicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
 } };
@@ -75,10 +191,16 @@ Q_CONSTINIT const QMetaObject MyWidget::staticMetaObject = { {
 void MyWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<MyWidget *>(_o);
-    (void)_t;
-    (void)_c;
-    (void)_id;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: _t->onStartSpider(); break;
+        case 1: _t->onProgressUpdated((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[3]))); break;
+        case 2: _t->onSpiderFinished((*reinterpret_cast< std::add_pointer_t<QList<QMap<QString,QString>>>>(_a[1]))); break;
+        case 3: _t->onErrorOccurred((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 4: _t->onTableDoubleClicked((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        default: ;
+        }
+    }
 }
 
 const QMetaObject *MyWidget::metaObject() const
@@ -97,6 +219,18 @@ void *MyWidget::qt_metacast(const char *_clname)
 int MyWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 5)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 5;
+    }
     return _id;
 }
 QT_WARNING_POP

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(HNEU-Viewer LANGUAGES CXX)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Network)
 
 qt_standard_project_setup()
 
@@ -11,12 +11,15 @@ qt_add_executable(HNEU-Viewer
     mywidget.cpp
     mywidget.h
     mywidget.ui
+    spiderworker.cpp
+    spiderworker.h
 )
 
 target_link_libraries(HNEU-Viewer
     PRIVATE
         Qt::Core
         Qt::Widgets
+        Qt::Network
 )
 
 install(TARGETS HNEU-Viewer

@@ -1,5 +1,9 @@
 D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/HNEU-Viewer_autogen/EWIEGA46WW/moc_mywidget.cpp: D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/mywidget.h \
   D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/HNEU-Viewer_autogen/moc_predefs.h \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/QList \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/QMap \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/QProcess \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/QThread \
   D:/Qt/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/q20iterator.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/q20memory.h \
@@ -33,7 +37,9 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/6.8.3/mingw_64/include/QtCore/qcontiguouscache.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qdatastream.h \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qdebug.h \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qendian.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qflags.h \
@@ -46,6 +52,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qhash.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qiodevicebase.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qiterator.h \
@@ -69,6 +76,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/6.8.3/mingw_64/include/QtCore/qoverload.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qpair.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qpoint.h \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/qprocess.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qrefcount.h \
@@ -105,6 +113,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/qthread.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtnoop.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -115,6 +124,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtversionchecks.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtypeinfo.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qtypes.h \
+  D:/Qt/6.8.3/mingw_64/include/QtCore/qurl.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qutf8stringview.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qvariant.h \
   D:/Qt/6.8.3/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -134,20 +144,31 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/6.8.3/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qpaintdevice.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qpalette.h \
+  D:/Qt/6.8.3/mingw_64/include/QtGui/qpen.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qpixmap.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qrgba64.h \
+  D:/Qt/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+  D:/Qt/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+  D:/Qt/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+  D:/Qt/6.8.3/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qtransform.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QDialog \
+  D:/Qt/6.8.3/mingw_64/include/QtWidgets/QTextEdit \
   D:/Qt/6.8.3/mingw_64/include/QtWidgets/QWidget \
+  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qframe.h \
   D:/Qt/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
   D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/Qt/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -164,6 +185,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_futex.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
@@ -210,6 +232,8 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
@@ -236,6 +260,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
@@ -250,6 +275,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -268,6 +294,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
@@ -275,6 +302,7 @@ D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
+  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \

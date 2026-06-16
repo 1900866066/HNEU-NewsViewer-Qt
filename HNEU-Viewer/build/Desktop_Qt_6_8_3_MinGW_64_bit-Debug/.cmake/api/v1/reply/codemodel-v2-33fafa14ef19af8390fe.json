@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-dc1ed53d98adcf1a1722.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HNEU-Viewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HNEU-Viewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HNEU-Viewer-Debug-06238d8e31174532a0b4.json",
+					"name" : "HNEU-Viewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HNEU-Viewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HNEU-Viewer_autogen-Debug-804c789ff2023cafd7cb.json",
+					"name" : "HNEU-Viewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HNEU-Viewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HNEU-Viewer_autogen_timestamp_deps-Debug-ce71fcca1e2a6f11689f.json",
+					"name" : "HNEU-Viewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug",
+		"source" : "D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
