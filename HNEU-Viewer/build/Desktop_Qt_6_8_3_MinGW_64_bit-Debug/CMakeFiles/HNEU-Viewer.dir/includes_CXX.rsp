@@ -1,0 +1,1 @@
+-I"D:/Mycode/Python/HNEU-NewsViewer-Qt/HNEU-Viewer/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/HNEU-Viewer_autogen/include" -isystem D:/Qt/6.8.3/mingw_64/include/QtCore -isystem D:/Qt/6.8.3/mingw_64/include -isystem "D:/Qt/6.8.3/mingw_64/mkspecs/win32-g++" -isystem D:/Qt/6.8.3/mingw_64/include/QtWidgets -isystem D:/Qt/6.8.3/mingw_64/include/QtGui

@@ -1,0 +1,3 @@
+D:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\HNEU-Viewer.dir/objects.a
+D:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\HNEU-Viewer.dir/objects.a @CMakeFiles\HNEU-Viewer.dir\objects1.rsp
+D:\Qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\HNEU-Viewer.dir/objects.a -Wl,--no-whole-archive -o HNEU-Viewer.exe -Wl,--out-implib,libHNEU-Viewer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HNEU-Viewer.dir\linkLibs.rsp
